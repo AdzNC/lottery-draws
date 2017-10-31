@@ -1,4 +1,4 @@
-# lottery-draws
+:# lottery-draws
 Lottery Draw Management
 =======================
 
@@ -8,13 +8,11 @@ Web API seemed a natural choice as it allows straightforward creation of REST en
 
 What's outstanding
 ------------------
-Regrettably there's much still left incomplete. Here's summary of what I was planning to do to finish off this project
-
+Regrettably there's much still left incomplete. Here's summary of what I was planning to do to finish off this project:
 *Web Service*
 - defining the endpoint routes in App_Start/WebApiConfig.cs;
 - testing against the UI;
 - Unit Tests.
-
 *UI*
 - Define the drawsService in the lotteryDraws module to hold 3 functions which are going to map to endpoint methods on the web service (createDraw, specifyWinningNumbers, searchLotteryDraws).
 - Define the event handlers for the 2 navigation and 2 submit buttons on the page. The idea behind the navigation is that the divs show exclusively of each other for the two UI functions on this page (Create Draw and Search Draws).
