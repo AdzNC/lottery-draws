@@ -2,6 +2,12 @@
 Lottery Draw Management
 =======================
 
+Installation instructions
+-------------------------
+To install the source code, please download the zip file belonging to this project (LotteryApp.zip) to a local directory on your development machine, and extract the compressed source files.
+The files can then be viewed in Visual Studio 2015 (or later) by clicking on the LotteryApp/LotteryApp.sln file.
+The solution can be run in Debug mode using the standard Visual Studio run commands (i.e. press F5).
+
 Choice of approach for the Web Service
 --------------------------------------
 Web API seemed a natural choice as it allows straightforward creation of REST endpoints with a lot of flexibility around routing and binding of input values.
